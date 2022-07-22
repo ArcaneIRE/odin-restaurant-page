@@ -1,13 +1,17 @@
+@import '../theme.css';
+
 body {
     margin: 0;
     font-family: sans-serif;
     min-height: 100vh;
+    background-color: var(--stone-900);
 }
 header {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 4rem;
+    background-color: var(--stone-900);
 }
 nav {
     display: flex;
@@ -15,7 +19,7 @@ nav {
     gap: 4rem;
 }
 nav a {
-    color: white;
+    color: var(--orange-500);
 }
 #content {
     height: calc(100vh - 4rem);
