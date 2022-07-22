@@ -10,7 +10,9 @@
 #home-main {
     padding: 1rem 3rem;
     border-top: 3px solid var(--stone-200);
-    border-bottom: 3px solid var(--stone-200);
+    border-left: 3px solid var(--stone-200);
+    border-bottom: 3px solid var(--orange-600);
+    border-right: 3px solid var(--orange-600);
     background-color: var(--stone-900);
 }
 #home-main h1 {
