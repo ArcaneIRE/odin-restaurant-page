@@ -1,5 +1,6 @@
 import './index.css';
 import homeContent from '../home/home.js';
+import menuContent from '../menu/menu';
 
 // Header
 const header = (() => {
@@ -18,7 +19,10 @@ const header = (() => {
 
     const menu = document.createElement('a');
     menu.textContent = 'Menu';
-    //menu.addEventListener('click', );
+    menu.addEventListener('click', () => {
+        content.innerHTML = '';
+        content.appendChild(menuContent);
+    });
     nav.appendChild(menu);
     
     const gallery = document.createElement('a');

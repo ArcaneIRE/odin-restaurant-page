@@ -1,0 +1,67 @@
+@import '../theme.css';
+
+#menu-container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--stone-900);
+    color: var(--stone-200);
+}
+#menu-main {
+    display: grid;
+    grid: auto / minmax(1fr, 400px) minmax(1fr, 400px) ;
+    column-gap: min(calc(.5rem + 5vw), 6rem);
+    row-gap: 3rem;
+    margin: 3rem 0 5rem 0;
+    width: min(90vw, 1000px);
+}
+#menu-main h1 {
+    margin: 0;
+    font-size: 4rem;
+    color: var(--stone-200);
+}
+#menu-main h1::after {
+    content: '.';
+    color: var(--orange-600)
+}
+.menu-heading {
+    justify-self: center;
+    grid-column: span 2;
+}
+.category {
+    margin:0;
+    color: var(--orange-600);
+}
+.menu-item {
+    display: grid;
+    grid: min-content auto auto / 1fr auto;
+}
+.menu-item-name {
+    margin: 0;
+}
+.menu-item-price {
+    justify-self: end;
+    letter-spacing: .1rem;
+}
+.menu-item-price::before {
+    content: '€';
+}
+.menu-item-border {
+    grid-column: span 2;
+    justify-self: center;
+    height: 2px;
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: var(--stone-200);
+}
+.menu-item-ingredients {
+    margin: 0;
+    grid-column: span 2;
+}
+.menu-text {
+    margin: 0;
+    grid-column: span 2;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+}
