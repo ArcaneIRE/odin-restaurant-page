@@ -1,0 +1,23 @@
+@import '../theme.css';
+
+#home-container {
+    display:grid;
+    place-items: center;
+    height: 100%;
+    background-image: url(./pizza-in-front-of-oven.jpg);
+    background-position: center -20rem;
+}
+#home-main {
+    padding: 1rem 3rem;
+    border-top: 3px solid var(--stone-200);
+    border-bottom: 3px solid var(--stone-200);
+    background-color: var(--stone-900);
+}
+#home-main h1 {
+    font-size: 4rem;
+    color: var(--stone-200);
+}
+#home-main h1::after {
+    content: '.';
+    color: var(--orange-600)
+}

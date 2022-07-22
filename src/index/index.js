@@ -1,4 +1,5 @@
 import './index.css';
+import homeContent from '../home/home.js';
 
 // Header
 const header = (() => {
@@ -9,7 +10,10 @@ const header = (() => {
     
     const home = document.createElement('a');
     home.textContent = 'Home';
-    //home.addEventListener('click', );
+    home.addEventListener('click', () => {
+        content.innerHTML = '';
+        content.appendChild(homeContent);
+    });
     nav.appendChild(home);
 
     const menu = document.createElement('a');
@@ -35,3 +39,6 @@ document.querySelector('body').appendChild(header);
 const content = document.createElement('div');
 content.id = 'content';
 document.querySelector('body').appendChild(content);
+
+// Initialization
+content.appendChild(homeContent);
