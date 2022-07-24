@@ -1,4 +1,12 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("./Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
 :root {
+    font-family: Montserrat;
+    letter-spacing: 0.03rem;
+
     --stone-900: #1C1917;
     --stone-800: #292524;
     --stone-700: #44403C;

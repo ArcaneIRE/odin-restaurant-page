@@ -36,6 +36,7 @@
     grid: min-content auto auto / 1fr auto;
 }
 .menu-item-name {
+    letter-spacing: .06rem;
     margin: 0;
 }
 .menu-item-price {
