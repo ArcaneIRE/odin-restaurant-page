@@ -2,6 +2,7 @@ import './index.css';
 import homeContent from '../home/home.js';
 import menuContent from '../menu/menu';
 import galleryContent from '../gallery/gallery';
+import contactContent from '../contact/contact';
 
 // Header
 const header = (() => {
@@ -36,7 +37,10 @@ const header = (() => {
 
     const contact = document.createElement('a');
     contact.textContent = 'Contact Us';
-    //contact.addEventListener('click', );
+    contact.addEventListener('click', () => {
+        content.innerHTML = '';
+        content.appendChild(contactContent);
+    });
     nav.appendChild(contact);
 
     return element;
