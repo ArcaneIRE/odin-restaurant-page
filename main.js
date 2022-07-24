@@ -10,6 +10,16 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/gallery/gallery.css":
+/*!***********************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/gallery/gallery.css ***!
+  \***********************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_theme_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!../theme.css */ \"./node_modules/css-loader/dist/cjs.js!./src/theme.css\");\n// Imports\n\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_theme_css__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".gallery {\\n    display: grid;\\n    grid: auto / 1fr 1fr;\\n    justify-content: center;\\n    gap: 0.5rem;\\n    margin: 0 auto 7rem auto;\\n    width: clamp(600px, 90vw, 1000px);\\n}\\n\\n.gallery img {\\n    width: 100%;\\n    transition: scale .3s;\\n    object-fit: cover;\\n    border-radius: .2rem;\\n}\\n\\n.gallery img:hover {\\n    scale: 1.025;\\n    z-index: 1;\\n}\\n\\n.gallery-landscape {\\n    grid-column: span 2;\\n    height: 400px;\\n}\\n\\n.gallery-portrait {\\n    grid-row: span 2;\\n    height: 600px;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://odin-restaurant-page/./src/gallery/gallery.css?./node_modules/css-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/home/home.css":
 /*!*****************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/home/home.css ***!
@@ -77,6 +87,16 @@ eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    opt
 /***/ ((module) => {
 
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://odin-restaurant-page/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+/***/ }),
+
+/***/ "./src/gallery/gallery.css":
+/*!*********************************!*\
+  !*** ./src/gallery/gallery.css ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_gallery_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!./gallery.css */ \"./node_modules/css-loader/dist/cjs.js!./src/gallery/gallery.css\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\n\n      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\n    \noptions.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_gallery_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_gallery_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _node_modules_css_loader_dist_cjs_js_gallery_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _node_modules_css_loader_dist_cjs_js_gallery_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://odin-restaurant-page/./src/gallery/gallery.css?");
 
 /***/ }),
 
@@ -170,6 +190,16 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/gallery/gallery.js":
+/*!********************************!*\
+  !*** ./src/gallery/gallery.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _gallery_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./gallery.css */ \"./src/gallery/gallery.css\");\n/* harmony import */ var _top_down_rocket_pizza_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./top-down-rocket-pizza.jpg */ \"./src/gallery/top-down-rocket-pizza.jpg\");\n/* harmony import */ var _wine_pour_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./wine-pour.jpg */ \"./src/gallery/wine-pour.jpg\");\n/* harmony import */ var _focaccia_seasoning_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./focaccia-seasoning.jpg */ \"./src/gallery/focaccia-seasoning.jpg\");\n/* harmony import */ var _leafy_cafe_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./leafy-cafe.jpg */ \"./src/gallery/leafy-cafe.jpg\");\n/* harmony import */ var _kneading_dough_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./kneading-dough.jpg */ \"./src/gallery/kneading-dough.jpg\");\n\n\n\n\n\n\n\n\nconst galleryContent = (() => {\n    const gallery = document.createElement('div');\n    gallery.classList.add('gallery');\n\n    const pizza = new Image();\n    pizza.src = _top_down_rocket_pizza_jpg__WEBPACK_IMPORTED_MODULE_1__;\n    pizza.classList.add('gallery-landscape');\n    gallery.appendChild(pizza);\n    \n    const focaccia = new Image();\n    focaccia.src = _focaccia_seasoning_jpg__WEBPACK_IMPORTED_MODULE_3__;\n    focaccia.classList.add('gallery-portrait');\n    gallery.appendChild(focaccia);\n    \n    const winePour= new Image();\n    winePour.src = _wine_pour_jpg__WEBPACK_IMPORTED_MODULE_2__;\n    winePour.classList.add('gallery-portrait');\n    gallery.appendChild(winePour);\n\n    const leafyCafe = new Image();\n    leafyCafe.src = _leafy_cafe_jpg__WEBPACK_IMPORTED_MODULE_4__;\n    leafyCafe.classList.add('gallery-landscape');\n    gallery.appendChild(leafyCafe);\n\n    const kneading = new Image();\n    kneading.src = _kneading_dough_jpg__WEBPACK_IMPORTED_MODULE_5__;\n    kneading.classList.add('gallery-landscape');\n    gallery.appendChild(kneading);\n    \n    return gallery;\n})();\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (galleryContent);\n\n//# sourceURL=webpack://odin-restaurant-page/./src/gallery/gallery.js?");
+
+/***/ }),
+
 /***/ "./src/home/home.js":
 /*!**************************!*\
   !*** ./src/home/home.js ***!
@@ -186,7 +216,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index/index.css\");\n/* harmony import */ var _home_home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../home/home.js */ \"./src/home/home.js\");\n/* harmony import */ var _menu_menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../menu/menu */ \"./src/menu/menu.js\");\n\n\n\n\n// Header\nconst header = (() => {\n    const element = document.createElement('header');\n\n    const nav = document.createElement('nav');\n    element.appendChild(nav);\n    \n    const home = document.createElement('a');\n    home.textContent = 'Home';\n    home.addEventListener('click', () => {\n        content.innerHTML = '';\n        content.appendChild(_home_home_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n    });\n    nav.appendChild(home);\n\n    const menu = document.createElement('a');\n    menu.textContent = 'Menu';\n    menu.addEventListener('click', () => {\n        content.innerHTML = '';\n        content.appendChild(_menu_menu__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\n    });\n    nav.appendChild(menu);\n    \n    const gallery = document.createElement('a');\n    gallery.textContent = 'Gallery';\n    //gallery.addEventListener('click', );\n    nav.appendChild(gallery);\n\n    const contact = document.createElement('a');\n    contact.textContent = 'Contact Us';\n    //contact.addEventListener('click', );\n    nav.appendChild(contact);\n\n    return element;\n})();\ndocument.querySelector('body').appendChild(header);\n\n// Content root\nconst content = document.createElement('div');\ncontent.id = 'content';\ndocument.querySelector('body').appendChild(content);\n\n// Initialization\ncontent.appendChild(_home_home_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n\n\n//# sourceURL=webpack://odin-restaurant-page/./src/index/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index/index.css\");\n/* harmony import */ var _home_home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../home/home.js */ \"./src/home/home.js\");\n/* harmony import */ var _menu_menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../menu/menu */ \"./src/menu/menu.js\");\n/* harmony import */ var _gallery_gallery__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../gallery/gallery */ \"./src/gallery/gallery.js\");\n\n\n\n\n\n// Header\nconst header = (() => {\n    const element = document.createElement('header');\n\n    const nav = document.createElement('nav');\n    element.appendChild(nav);\n    \n    const home = document.createElement('a');\n    home.textContent = 'Home';\n    home.addEventListener('click', () => {\n        content.innerHTML = '';\n        content.appendChild(_home_home_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n    });\n    nav.appendChild(home);\n\n    const menu = document.createElement('a');\n    menu.textContent = 'Menu';\n    menu.addEventListener('click', () => {\n        content.innerHTML = '';\n        content.appendChild(_menu_menu__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\n    });\n    nav.appendChild(menu);\n    \n    const gallery = document.createElement('a');\n    gallery.textContent = 'Gallery';\n    gallery.addEventListener('click', () => {\n        content.innerHTML = '';\n        content.appendChild(_gallery_gallery__WEBPACK_IMPORTED_MODULE_3__[\"default\"]);\n    });\n    nav.appendChild(gallery);\n\n    const contact = document.createElement('a');\n    contact.textContent = 'Contact Us';\n    //contact.addEventListener('click', );\n    nav.appendChild(contact);\n\n    return element;\n})();\ndocument.querySelector('body').appendChild(header);\n\n// Content root\nconst content = document.createElement('div');\ncontent.id = 'content';\ndocument.querySelector('body').appendChild(content);\n\n// Initialization\ncontent.appendChild(_home_home_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\n\n\n//# sourceURL=webpack://odin-restaurant-page/./src/index/index.js?");
 
 /***/ }),
 
@@ -197,6 +227,56 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ind
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _menu_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./menu.css */ \"./src/menu/menu.css\");\n\n\nfunction createMenuItem(name, price, ingredients) {\n    const menuItem = document.createElement('div');\n    menuItem.classList.add('menu-item')\n\n    const itemName = document.createElement('h3');\n    itemName.classList.add('menu-item-name')\n    itemName.textContent = name;\n    menuItem.appendChild(itemName);\n\n    const itemPrice = document.createElement('span');\n    itemPrice.classList.add('menu-item-price');\n    itemPrice.textContent = price;\n    menuItem.appendChild(itemPrice);\n\n    const itemBorder = document.createElement('div');\n    itemBorder.classList.add('menu-item-border');\n    menuItem.appendChild(itemBorder);\n\n    const itemIngredients = document.createElement('p');\n    itemIngredients.classList.add('menu-item-ingredients');\n    ingredients = ingredients.join(', ');\n    ingredients = ingredients.charAt(0).toUpperCase() + ingredients.slice(1);\n    ingredients += '.';\n    itemIngredients.textContent = ingredients;\n    menuItem.appendChild(itemIngredients);\n    \n    return menuItem;\n}\n\nconst menuContent = (() => {\n    const background = document.createElement('div');\n    background.id = 'menu-container';\n\n    const main = document.createElement('main');\n    main.id = 'menu-main';\n    background.appendChild(main);\n\n    const title = document.createElement('h1');\n    title.id = 'menu-title';\n    title.classList.add('menu-heading')\n    title.textContent = 'Menu';\n    main.appendChild(title);\n\n    // Pizza\n    const pizzaCategory = document.createElement('h2');\n    pizzaCategory.classList.add('menu-heading', 'category')\n    pizzaCategory.textContent = 'Pizza';\n    main.appendChild(pizzaCategory);\n\n    main.appendChild(createMenuItem('Margherita', '9.50', \n    ['tomato', 'mozzarella', 'extra virgin olive oil', 'basil']));\n    main.appendChild(createMenuItem('Prosciutto e Funghi', '10.50', \n    ['tomato', 'mozzarella', 'prosciutto', 'mushroom']));\n    main.appendChild(createMenuItem('Cappriciosa', '10.50', \n    ['tomato', 'mozzarella', 'mushroom', 'artichoke', 'ham', 'olives']));\n    main.appendChild(createMenuItem('Vegana', '10.50', \n    ['tomato', 'vegan mozzarella', 'artichoke', 'toasted pine nuts', 'rocket',]));\n    main.appendChild(createMenuItem('Quattro Formaggi', '11.00', \n    ['tomato', 'mozzarella', 'stracchino', 'fontina', 'gorgonzola']));\n\n    // Sides\n    const sidesCategory = document.createElement('h2');\n    sidesCategory.classList.add('menu-heading', 'category')\n    sidesCategory.textContent = 'Sides';\n    main.appendChild(sidesCategory);\n\n    main.appendChild(createMenuItem('Homemade Focaccia', '5.00', \n    ['cherry tomato', 'extra virgin olive oil', 'rosemary', 'crunchy sea salt']));\n    main.appendChild(createMenuItem('Homemade Focaccia (Parma Ham)', '6.00', \n    ['cherry tomato', 'Parma ham', 'extra virgin olive oil', 'rosemary', 'crunchy sea salt']));\n    main.appendChild(createMenuItem('Caprese Salad', '7.00', \n    ['tomato', 'mozzarella', 'extra virgin olive oil', 'aceto balsamico di modena', 'basil']));\n\n        // Wine\n        const wineCategory = document.createElement('h2');\n        wineCategory.classList.add('menu-heading', 'category')\n        wineCategory.textContent = 'Wine';\n        main.appendChild(wineCategory);\n        \n        const wineText = document.createElement('h3');\n        wineText.innerText = 'Wine list available on request';\n        wineText.classList.add('menu-text');\n        main.appendChild(wineText);\n    return background;\n})();\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menuContent);\n\n//# sourceURL=webpack://odin-restaurant-page/./src/menu/menu.js?");
+
+/***/ }),
+
+/***/ "./src/gallery/focaccia-seasoning.jpg":
+/*!********************************************!*\
+  !*** ./src/gallery/focaccia-seasoning.jpg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"24d9a2ef60f4bc7cd1e8.jpg\";\n\n//# sourceURL=webpack://odin-restaurant-page/./src/gallery/focaccia-seasoning.jpg?");
+
+/***/ }),
+
+/***/ "./src/gallery/kneading-dough.jpg":
+/*!****************************************!*\
+  !*** ./src/gallery/kneading-dough.jpg ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"b47532696e638edd4439.jpg\";\n\n//# sourceURL=webpack://odin-restaurant-page/./src/gallery/kneading-dough.jpg?");
+
+/***/ }),
+
+/***/ "./src/gallery/leafy-cafe.jpg":
+/*!************************************!*\
+  !*** ./src/gallery/leafy-cafe.jpg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"2f6d2bd09e52c3bb12b9.jpg\";\n\n//# sourceURL=webpack://odin-restaurant-page/./src/gallery/leafy-cafe.jpg?");
+
+/***/ }),
+
+/***/ "./src/gallery/top-down-rocket-pizza.jpg":
+/*!***********************************************!*\
+  !*** ./src/gallery/top-down-rocket-pizza.jpg ***!
+  \***********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"8a58d56bce6c1b2dd051.jpg\";\n\n//# sourceURL=webpack://odin-restaurant-page/./src/gallery/top-down-rocket-pizza.jpg?");
+
+/***/ }),
+
+/***/ "./src/gallery/wine-pour.jpg":
+/*!***********************************!*\
+  !*** ./src/gallery/wine-pour.jpg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"d25609bbd7dd295c20ce.jpg\";\n\n//# sourceURL=webpack://odin-restaurant-page/./src/gallery/wine-pour.jpg?");
 
 /***/ }),
 
