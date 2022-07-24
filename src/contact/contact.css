@@ -78,12 +78,14 @@
     color: var(--stone-200);
     font-weight: 600;
     letter-spacing: .05rem;
+    transition: scale 0.2s;
 }
 .contact-form button:focus {
     outline: 2px solid var(--orange-700);
 }
 .contact-form button:hover {
     background-color: var(--orange-500);
+    scale: 1.05;
 }
 .contact-form button:active {
     background-color: var(--orange-900);
