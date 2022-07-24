@@ -1,6 +1,7 @@
 import './index.css';
 import homeContent from '../home/home.js';
 import menuContent from '../menu/menu';
+import galleryContent from '../gallery/gallery';
 
 // Header
 const header = (() => {
@@ -27,7 +28,10 @@ const header = (() => {
     
     const gallery = document.createElement('a');
     gallery.textContent = 'Gallery';
-    //gallery.addEventListener('click', );
+    gallery.addEventListener('click', () => {
+        content.innerHTML = '';
+        content.appendChild(galleryContent);
+    });
     nav.appendChild(gallery);
 
     const contact = document.createElement('a');

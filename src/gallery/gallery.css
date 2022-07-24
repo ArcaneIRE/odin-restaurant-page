@@ -1,0 +1,32 @@
+@import '../theme.css';
+
+.gallery {
+    display: grid;
+    grid: auto / 1fr 1fr;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 0 auto 7rem auto;
+    width: clamp(600px, 90vw, 1000px);
+}
+
+.gallery img {
+    width: 100%;
+    transition: scale .3s;
+    object-fit: cover;
+    border-radius: .2rem;
+}
+
+.gallery img:hover {
+    scale: 1.025;
+    z-index: 1;
+}
+
+.gallery-landscape {
+    grid-column: span 2;
+    height: 400px;
+}
+
+.gallery-portrait {
+    grid-row: span 2;
+    height: 600px;
+}
