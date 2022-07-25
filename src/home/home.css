@@ -16,6 +16,7 @@
     background-color: var(--stone-900);
 }
 #home-main h1 {
+    text-align: center;
     font-weight: 400;
     font-size: 4rem;
     color: var(--stone-200);
