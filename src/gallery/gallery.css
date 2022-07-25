@@ -29,3 +29,15 @@
 .gallery-portrait {
     height: 600px;
 }
+
+@media only screen and (max-width: 500px) {
+    .gallery {
+        width: 90vw;
+    }
+    .gallery-landscape {
+        height:250px;
+    }
+    .gallery-portrait {
+        height: 300px;
+    }
+}
